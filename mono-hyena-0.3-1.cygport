@@ -1,0 +1,6 @@
+ORIG_PN="hyena"
+inherit mono gnome.org
+
+HOMEPAGE="http://live.gnome.org/Hyena"
+
+PATCH_URI="0.3-cygwin-dllmap.patch"

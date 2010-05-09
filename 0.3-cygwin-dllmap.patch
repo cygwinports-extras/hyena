@@ -1,0 +1,15 @@
+--- origsrc/hyena-0.3/src/Hyena.Gui/Hyena.Gui.dll.config	2009-09-09 14:28:28.000000000 -0500
++++ src/hyena-0.3/src/Hyena.Gui/Hyena.Gui.dll.config	2010-05-09 02:18:52.429852000 -0500
+@@ -14,4 +14,12 @@
+   <dllmap dll="libgdk_pixbuf-2.0-0.dll" target="libgdk_pixbuf-2.0.dylib" os="osx"/>
+   <dllmap dll="libpangocairo-1.0-0.dll" target="libpangocairo-1.0.dylib" os="osx"/>
+   <dllmap dll="libcairo-2.dll" target="libcairo.2.dylib" os="osx"/>
++
++  <dllmap dll="libgtk-win32-2.0-0.dll" target="cyggtk-x11-2.0-0.dll" os="cygwin"/>
++  <dllmap dll="libgdk-win32-2.0-0.dll" target="cyggdk-x11-2.0-0.dll" os="cygwin"/>
++  <dllmap dll="libglib-2.0-0.dll" target="cygglib-2.0-0.dll" os="cygwin"/>
++  <dllmap dll="libgobject-2.0-0.dll" target="cyggobject-2.0-0.dll" os="cygwin"/>
++  <dllmap dll="libgdk_pixbuf-2.0-0.dll" target="cyggdk_pixbuf-2.0-0.dll" os="cygwin"/>
++  <dllmap dll="libpangocairo-1.0-0.dll" target="cygpangocairo-1.0-0.dll" os="cygwin"/>
++  <dllmap dll="libcairo-2.dll" target="cygcairo-2.dll" os="cygwin"/>
+ </configuration>
