@@ -1,0 +1,11 @@
+ORIG_PN="hyena"
+inherit mono gnome.org
+
+HOMEPAGE="http://live.gnome.org/Hyena"
+
+PATCH_URI="
+	0.3-cygwin-dllmap.patch
+	0.5-vpath.patch
+"
+
+ACLOCAL_FLAGS="-I build/m4/shamrock"
