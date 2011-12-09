@@ -1,5 +1,13 @@
---- origsrc/hyena-0.3/src/Hyena.Gui/Hyena.Gui.dll.config	2009-09-09 14:28:28.000000000 -0500
-+++ src/hyena-0.3/src/Hyena.Gui/Hyena.Gui.dll.config	2010-05-09 02:18:52.429852000 -0500
+--- origsrc/hyena-0.5/Hyena/Hyena.dll.config	2010-08-10 17:01:10.000000000 -0500
++++ src/hyena-0.5/Hyena/Hyena.dll.config	2011-12-08 20:24:06.544972000 -0600
+@@ -1,4 +1,5 @@
+ <configuration>
+   <dllmap dll="libglib-2.0-0.dll" target="libglib-2.0.so.0" os="!windows,osx"/>
+   <dllmap dll="libglib-2.0-0.dll" target="libglib-2.0.dylib" os="osx"/>
++  <dllmap dll="libglib-2.0-0.dll" target="cygglib-2.0-0.dll" os="cygwin"/>
+ </configuration>
+--- origsrc/hyena-0.3/Hyena.Gui/Hyena.Gui.dll.config	2009-09-09 14:28:28.000000000 -0500
++++ src/hyena-0.3/Hyena.Gui/Hyena.Gui.dll.config	2010-05-09 02:18:52.429852000 -0500
 @@ -14,4 +14,12 @@
    <dllmap dll="libgdk_pixbuf-2.0-0.dll" target="libgdk_pixbuf-2.0.dylib" os="osx"/>
    <dllmap dll="libpangocairo-1.0-0.dll" target="libpangocairo-1.0.dylib" os="osx"/>
